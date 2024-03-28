@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -59,9 +59,20 @@
         }
       ],
       "drc_exclusions": [
-        "unconnected_items|23950000|45680000|3f01c666-779d-4444-a9db-f92e497ea7f2|7c4be337-ec1f-4401-872f-294c5f7f6120",
-        "unconnected_items|23950000|54320000|7c4be337-ec1f-4401-872f-294c5f7f6120|d1293258-f272-4d52-b21a-854979c58afd",
-        "unconnected_items|28130000|45680000|0f84d7f6-874d-4e8d-8197-e778efc7521e|3f01c666-779d-4444-a9db-f92e497ea7f2"
+        "connection_width|27704734|46501612|ea85299a-dabf-4033-bd04-2959f2d5de5e|00000000-0000-0000-0000-000000000000",
+        "connection_width|27705265|53498387|ea85299a-dabf-4033-bd04-2959f2d5de5e|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|32000000|49400000|d524703c-dac0-4a02-a5f5-3e6a23a7de79|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|33600000|54000000|80900c73-9334-4254-b3f5-686bb8b66ff5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|39000000|52000000|9308f27b-5324-4330-8b0c-e10de4c562c6|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|39000000|54500000|ec9725e3-69d1-4032-8d7b-bbe607287163|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|40700000|47400000|c714c34e-7eb8-42a1-9cf8-3d210a64cca7|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|43000000|52142500|097953d1-f57c-48c2-8f1e-118e949a4ee0|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|43000000|54642500|be97f946-79c8-4d83-b190-a5fa6b993791|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|41503330|53515538|374586bc-7f04-4273-9b56-8940067ea70e|b3f745d1-9805-46a9-97c7-6a1d81c28e2d",
+        "silk_overlap|41600000|53500000|0c060f7a-d4cb-4cb6-80f2-803056eea183|374586bc-7f04-4273-9b56-8940067ea70e",
+        "silk_overlap|41600000|53500000|0c060f7a-d4cb-4cb6-80f2-803056eea183|cc4062f3-03e0-4bb5-b136-db9472b1ee58",
+        "silk_overlap|41650000|53500000|cc4062f3-03e0-4bb5-b136-db9472b1ee58|b3f745d1-9805-46a9-97c7-6a1d81c28e2d",
+        "silk_overlap|42100000|53500000|5fb29a07-3a5d-4a4f-a860-eec138475641|0c060f7a-d4cb-4cb6-80f2-803056eea183"
       ],
       "meta": {
         "version": 2
@@ -122,15 +133,15 @@
         "min_clearance": 0.08,
         "min_connection": 0.08,
         "min_copper_edge_clearance": 0.08,
-        "min_hole_clearance": 0.16499999999999998,
+        "min_hole_clearance": 0.165,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.08,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.35,
